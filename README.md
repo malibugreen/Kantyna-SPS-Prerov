@@ -82,7 +82,21 @@ Ve složce `install/` jsou připravené automatické skripty, které samy nainst
 
 ## 🎮 Spuštění aplikací
 
-### 1. Spuštění z terminálu (Raspberry Pi s hardwarem)
+### 1. Rychlé spuštění přes připravené skripty (Doporučeno)
+V kořenové složce jsou nachystané spouštěcí skripty, které si samy ohlídají správnou cestu i prostředí:
+- **Samoobslužný kiosek:**
+  ```bash
+  ./spustit_kiosek.sh
+  ```
+- **Pokladna / Správa:**
+  ```bash
+  ./spustit_pokladna.sh
+  ```
+*(Případně na ně můžete na Raspberry Pi v grafickém správci souborů jen dvakrát kliknout a zvolit „Spustit v terminálu“).*
+
+---
+
+### 2. Spuštění přímo přes Python
 - **Samoobslužný kiosek:**
   ```bash
   python3 kiosk_app.py
@@ -96,7 +110,9 @@ Ve složce `install/` jsou připravené automatické skripty, které samy nainst
   python3 test_rfid.py
   ```
 
-### 2. Spouštění přes ikony na Ploše
+---
+
+### 3. Spouštění přes ikony na Ploše
 Ve složce `utilities/` jsou připravené zástupci pro plochu:
 - `Spustit_Kiosek.desktop`
 - `Spustit_Pokladna.desktop`
@@ -111,25 +127,3 @@ Pokud chcete aplikaci vyzkoušet na běžném notebooku/PC bez připojeného Ras
 - **Testovací pokladna:** `python TEST_cashier_app.py`
 
 Tyto verze obsahují tlačítka pro simulaci přiložení RFID čipu a nevyžadují žádný fyzický hardware.
-
----
-
-## 📁 Struktura projektu
-
-```text
-├── kiosk_app.py             # Hlavní aplikace samoobslužného kiosku (hardware)
-├── cashier_app.py           # Hlavní aplikace pokladny a administrace (hardware)
-├── test_rfid.py             # Samostatný test čtečky a bzučáku
-├── TEST_kiosk_app.py        # Klientská verze se simulací pro PC bez HW
-├── TEST_cashier_app.py      # Pokladní verze se simulací pro PC bez HW
-├── data/                    # Databáze SQLite (uživatelé, sklad, transakce)
-├── images/                  # Obrázky kategorií a produktů
-├── install/                 # Instalační skripty (Linux/RPi + Windows)
-└── utilities/               # Ovladače RFID (MFRC522), bzučáku a zástupci na plochu
-```
-
----
-
-## 👤 Autor
-- **Autor:** Tomáš (SPŠ Přerov)
-- **Projekt:** Ročníková / maturitní práce
