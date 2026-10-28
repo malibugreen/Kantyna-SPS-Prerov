@@ -8,7 +8,8 @@ Systém umožňuje studentům a učitelům samoobslužný nákup svačin pomocí
 
 <!-- ZDE VLOŽ FOTKU CELÉHO PROJEKTU NEBO HLAVNÍ OBRAZOVKY -->
 <!-- Příklad: ![Náhled projektu](img/hlavni_nahled.png) -->
-> 📸 *[MÍSTO PRO FOTKU: Celkový pohled na zapojené Raspberry Pi s deskou Freenove a displejem]*
+<img width="1024" height="768" alt="media_1792747002405_3e8d87df" src="https://github.com/user-attachments/assets/38e0ef22-8e77-4f88-8c25-8fc5b718143b" />
+
 
 ---
 
