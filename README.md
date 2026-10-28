@@ -23,7 +23,8 @@ Systém umožňuje studentům a učitelům samoobslužný nákup svačin pomocí
 - **Kontrola zůstatku:** Upozornění v případě nedostatku kreditu na účtu.
 
 <!-- ZDE VLOŽ SCREENSHOT KIOSKU -->
-> 📸 *[MÍSTO PRO OBRÁZEK: Screenshot spuštěného samoobslužného kiosku s nabídkou jídel]*
+<img width="1051" height="683" alt="Snímek obrazovky 2026-10-28 221752" src="https://github.com/user-attachments/assets/dc628665-67f0-47c7-9e27-034af6afbf6d" />
+
 
 ---
 
@@ -34,7 +35,8 @@ Systém umožňuje studentům a učitelům samoobslužný nákup svačin pomocí
 - **Přehled historie:** Záznamy o provedených platbách a dobitích kreditu.
 
 <!-- ZDE VLOŽ SCREENSHOT POKLADNY -->
-> 📸 *[MÍSTO PRO OBRÁZEK: Screenshot rozhraní pokladny / dobíjení kreditu]*
+<img width="1133" height="737" alt="Snímek obrazovky 2026-10-28 221429" src="https://github.com/user-attachments/assets/bbe1ef5d-d913-4b0c-a040-739cd2f195b5" />
+
 
 ---
 
