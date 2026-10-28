@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Školní Pokladna
+Comment=Spuštění rozhraní pro pokladní
+Exec=/bin/bash -c "cd $(dirname %k)/.. && python3 cashier_app.py"
+Icon=accessories-calculator
+Terminal=false
+Categories=Application;Office;

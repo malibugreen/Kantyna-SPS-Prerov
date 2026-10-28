@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Školní Kiosek
+Comment=Spuštění objednávkového kiosku
+Exec=/bin/bash -c "cd $(dirname %k)/.. && python3 kiosk_app.py"
+Icon=shop
+Terminal=false
+Categories=Application;Office;
